@@ -1,0 +1,58 @@
+Overall Task:In this Assignment, you will demonstrate your understanding of the data science methodology by applying it to a given problem. Pick one of the following topics to apply the data science methodology to:
+
+    Emails
+    Hospitals
+    Credit Cards
+
+You will have to play the role of the client as well as the data scientist to come up with a problem that is more specific but related to these topics.
+
+---------------------------------------------------
+
+Task 1: Which topic did you choose to apply the data science methodology to?
+
+Answer: Hospitals
+
+--------------------------------------------------
+
+Task 2: Next, you will play the role of the client and the data scientist.
+Using the topic that you selected, complete the Business Understanding stage by coming up with a problem that you would like to solve and phrasing it in the form of a question that you will use data to answer.
+
+You are required to:
+
+   1. Describe the problem, related to the topic you selected.
+   2. Phrase the problem as a question to be answered using data.
+
+Answer: 
+1. Coronary heart disease (CHD) tends to develop when cholesterol builds up on the artery walls creating plague. Certain food increases or decreases the cholesterol level. Furthermore, older people are more likely to receive CHD. So predicting the likelyhood of developing CHD in the next three years based on the cholesterol level, age and diet seems a good start.
+
+2. Can we determine the likelyhood of someone developing coronary heart disease in the next three years based on the patient data?
+
+---------------------------------------------------------
+
+Task 3: Briefly explain how you would complete each of the following stages for the problem that you described in the Business Understanding stage, so that you are ultimately able to answer the question that you came up with.
+
+    1. Analytic Approach
+    2. Data Requirements
+    3. Data Collection
+    4. Data Understanding and Preparation
+    5. Modeling and Evaluation
+
+Answer:
+1. Analytic Approach
+Since we want to know the likelyhood a predictive model is the right choice -> e.g. decision tree classifier
+
+2. Data Requirements
+Age (integer number), diet (meat, vegetarian), cholesterol level (integer number) 
+
+3. Data Collection
+There are medical databases with CSV or JSON files ready to use.
+
+4. Data Understanding and Preparation
+Understanding: Taking a look at the data itself, what kind of data is included and how the data is distributed by looking at the columns of the tables and the respective histograms.
+Preparation: Removing unwanted data and refining data by renaming columns or changing elements (e.g. diet to a binary state - meat, vegetarian).
+
+5. Modeling and Evaluation:
+Modeling: Depending on the distribution of the data, maybe it would make sense to build different decisions trees for certain subsets of data e.g. age groups, diet groups etc. 
+Evaluation: Splitting the data set into a training set for building the decision tree and a test set for testing the decision tree. Evaluating the model with a confusion matrix. Model probably needs to be tweaked so iteratively changing the model and evaluating the model.  
+
+Maybe the results of the model will not be satisfying and previous stages need to be revisited at any time and multiple times.
