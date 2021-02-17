@@ -1,0 +1,64 @@
+ Question 1
+ m*n
+ 
+ Question 2
+ m+n
+ 
+ Question 3
+ When L has mor than 1000 items
+ 
+ Question 4
+ When 7 is as close to the beginning of the list as possible
+ 
+ Question 5
+ selection sort
+ 
+ Question 6
+ bubble sort
+ 
+ Question 7
+ insertion sort
+ 
+ Question 8
+ [1, 1, 5, 6, 7, 8, 7]
+ 
+ Question 9
+ [1, 2, 6, 8, 1, 9, 4]
+ 
+ Question 10
+ In bubble sort, on the first pass, which item gets moved to the far right?
+ the largest item
+ 
+ Question 11
+ insertion sort, if we call insert(L, 5), select a value for x that would be moved to index 0.
+ 1
+ 
+ Question 12
+ same as Question 11 but the x shoud stayu where it is.
+ 9
+ 
+ Question 13
+ insertion sort, in which situation does the loop terminate because j == 0?
+ when the item at index i is smaler than everything in the sorted section
+ 
+ Question 14
+ insertion sort, in worst-case situation, how many times is the body of the while loop executed?
+ i
+ 
+ Question 15
+ insertion sort, worst case, how many times is the body of while loop executed?
+ 0 + 1 + 2 + ... + len(L) - 1
+ 
+ Question 16
+ insertion sort, worst case scenario, how many times is the while loop body executed?
+ len(L) * len(L) / 2
+ 
+ Question 17
+ running time of insertion sort in worst case?
+ quadratic length of the list
+ 
+ Question 18
+ Question 18
+
+For a call on function insertion_sort(L), in the best case (where list L is already sorted), how many times is the body of the while loop in function insert executed?
+0 times
